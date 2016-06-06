@@ -6,4 +6,5 @@ Dependencies for completely blind:
 - EmGm: http://www.mathworks.com/matlabcentral/fileexchange/26184-em-algorithm-for-gaussian-mixture-model--em-gmm-
 
 Dependencies for opinion aware:
+- MatalbPyrTools: http://www.cns.nyu.edu/lcv/software.php
 - Libsvm: https://www.csie.ntu.edu.tw/~cjlin/libsvm/
