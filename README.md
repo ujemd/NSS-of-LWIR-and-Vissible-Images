@@ -2,8 +2,6 @@
 
 Authors: Hernán Benítez and David Moreno
 
-Version: 1.0
-
 Contact: david.moreno@javerianacali.edu.co
 
 ## Synopsis
