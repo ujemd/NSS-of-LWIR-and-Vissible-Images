@@ -1,4 +1,4 @@
-# NSS-of-LWIR-and-Vissible-Images
+# Natural Scene Statistics of Long Wave Infrared and Vissible Images
 
 Authors: Hernán Benítez and David Moreno
 
