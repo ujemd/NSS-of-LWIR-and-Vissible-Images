@@ -29,6 +29,8 @@ Dependencies:
 - MatalbPyrTools: http://www.cns.nyu.edu/lcv/software.php
 - EmGm: http://www.mathworks.com/matlabcentral/fileexchange/26184-em-algorithm-for-gaussian-mixture-model--em-gmm-
 
+Training: This version was trained using 80 pairs of LWIR and visible images with three fusion algorithms (average, gradient pyramid, and shift invariant discrete wavelet transform), that is 240 fused images. The user can retrain the model by calculating the features of the images using the function ```computeGoodallFeatures``` and calculating the MVG model with ```mixGaussEm``` from the EmGm toolbox.
+
 ### Opinion Aware Image Quality Analyzer
 
 Usage:
@@ -40,6 +42,8 @@ Dependencies:
 - Mat files (provided): SVMmodel.mat (regressor model), dmos.mat (DMOS), trainX.mat (reference for data scaling), logistic-function-param.mat (beta parameters for the logistic function)
 - MatalbPyrTools: http://www.cns.nyu.edu/lcv/software.php
 - Libsvm: https://www.csie.ntu.edu.tw/~cjlin/libsvm/
+
+Training: This version was trained using 540 fused images and DMOS. The user can retrain the model by using the ```svmtrain``` from the Libsvm toolbox and finding the best beta parameters of the logistic function using ```nlinfit```.
 
 ## Subjective Study Files
 
