@@ -25,7 +25,7 @@ Usage:
 3. Call the metricIQA function: ``` quality = metricIQA(fused_image,pristineModel); ```
 
 Dependencies:
-- Mat file (provided): pristineModel.mat
+- Mat file (provided): pristineModel.mat (pristine MVG model)
 - MatalbPyrTools: http://www.cns.nyu.edu/lcv/software.php
 - EmGm: http://www.mathworks.com/matlabcentral/fileexchange/26184-em-algorithm-for-gaussian-mixture-model--em-gmm-
 
@@ -37,7 +37,7 @@ Usage:
 2. Call the metricIQA function: ``` quality = metricSVM(fused_image); ```
 
 Dependencies:
-- Mat files (provided): SVMmodel.mat, dmos.mat, trainX.mat, logistic-function-param.mat
+- Mat files (provided): SVMmodel.mat (regressor model), dmos.mat (DMOS), trainX.mat (reference for data scaling), logistic-function-param.mat (beta parameters for the logistic function)
 - MatalbPyrTools: http://www.cns.nyu.edu/lcv/software.php
 - Libsvm: https://www.csie.ntu.edu.tw/~cjlin/libsvm/
 
