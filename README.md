@@ -1,6 +1,6 @@
 # Natural Scene Statistics of Long Wave Infrared and Vissible Images
 
-Authors: Hernán Benítez and David Moreno
+Authors: David Moreno and Hernán Benítez
 
 Contact: david.moreno@javerianacali.edu.co
 
