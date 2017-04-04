@@ -1,6 +1,6 @@
 # Predicting the Quality of Fused Long Wave Infrared and Visible Light Images
 
-Authors: David Moreno and Hernán Benítez
+Authors: David Moreno, Hernán Benítez and Alan Bovik
 
 Contact: david.moreno@javerianacali.edu.co
 
