@@ -2,13 +2,13 @@
 
 Authors: David Moreno, Hernán Benítez and Alan Bovik
 
-Contact: david.moreno@javerianacali.edu.co
+Contact: david.moreno@ieee.org
 
 ## Synopsis
 
 This is a demonstration of the work presented in:
 
-"Predicting the Quality of Fused Long Wave Infrared and Visible Light Images", David-Moreno D.E., Benítez-Restrepo, H.D.
+["Predicting the Quality of Fused Long Wave Infrared and Visible Light Images"](http://ieeexplore.ieee.org/document/7904687/), David-Moreno D.E., Benítez-Restrepo, H.D.
 
 Which proposes fused image quality metrics and presents a subjective human study for their construction and validation. Files included are: the Matlab implementation of a *opinion distortion unaware* and an *opinion aware fused image quality analyzer*, the original raw opinion scores, Z-scores after subject rejection, and Differential Mean Opinion Scores (DMOS).
 
