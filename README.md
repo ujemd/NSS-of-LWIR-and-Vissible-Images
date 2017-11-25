@@ -44,6 +44,7 @@ Dependencies:
 - Mat files (provided): SVMmodel.mat (regressor model), dmos.mat (DMOS), trainX.mat (reference for data scaling), logistic-function-param.mat (beta parameters for the logistic function)
 - MatalbPyrTools: http://www.cns.nyu.edu/lcv/software.php
 - Libsvm: https://www.csie.ntu.edu.tw/~cjlin/libsvm/
+- scaleSVM function: https://github.com/Hawaiii/classifyfmri/blob/master/part2/regression/scaleSVM.m
 
 Training: This version was trained using 540 fused images and DMOS. The user can retrain the model by using the ```svmtrain``` from the Libsvm toolbox and finding the best beta parameters of the logistic function using ```nlinfit```.
 
