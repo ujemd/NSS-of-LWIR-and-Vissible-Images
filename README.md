@@ -18,7 +18,7 @@ Input: A test fused image loaded in an array.
 
 Output: A quality score of the image. A higher value indicates lower quality.
 
-### Completely Blind Fused Image Quality Analyzer
+### Opinion Distortion Unaware Image Quality Analyzer
 
 Usage:
 
@@ -26,7 +26,7 @@ Usage:
 2. Load a pristine MVG model: ``` load pristineModel.mat ```
 3. Call the metricIQA function: ``` quality = metricIQA(fused_image,pristineModel); ```
 
-Dependencies:
+**Note:** The following files and algorithms are required for this function to work properly:
 - Mat file (provided): pristineModel.mat (pristine MVG model)
 - MatalbPyrTools: http://www.cns.nyu.edu/lcv/software.php
 - EmGm: http://www.mathworks.com/matlabcentral/fileexchange/26184-em-algorithm-for-gaussian-mixture-model--em-gmm-
@@ -40,7 +40,7 @@ Usage:
 1. Load the image: ``` fused_image = imread('fused_image1.bmp'); ```
 2. Call the metricIQA function: ``` quality = metricSVM(fused_image); ```
 
-Dependencies:
+**Note:** The following files and algorithms are required for this function to work properly:
 - Mat files (provided): SVMmodel.mat (regressor model), dmos.mat (DMOS), trainX.mat (reference for data scaling), logistic-function-param.mat (beta parameters for the logistic function)
 - MatalbPyrTools: http://www.cns.nyu.edu/lcv/software.php
 - Libsvm: https://www.csie.ntu.edu.tw/~cjlin/libsvm/
